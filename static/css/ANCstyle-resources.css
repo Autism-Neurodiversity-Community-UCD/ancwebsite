@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.title-page {
+  position: absolute;
+  top:2.5rem;
+  margin-left: 7rem;
+
+}
+
+.first-logo {
+  position:absolute;
+  top:1rem;
+  margin-left:.5rem;
+}
+
+.bck-img {
+  display:flex;
+  justify-content:center;
+  
+  margin-top:50px;
+  padding:0;
+  
+}
+
+.navigation-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 2%;
+}
+
+.home {
+  margin-left: 4rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  border-color:#CEE8FF;
+  background-color: #F9F9F9;
+  padding: 7px;
+}
+
+.aboutus, .peersupport, .commmembers, .members, .contactus, .events, .resources, .keyterms{
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.resources {
+    background-color: #CEE8FF;;
+}
+
+@media only screen and (max-width: 1300px) {
+  .navigation-container {
+    width: 100%;
+    padding-top:40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* Styling for Resources Pages: Self Advocacy, Mental Health, Faculty and Staff, Academic Support, Employment Support, Financial Aid */
+
+body {
+    background-color:#F0F8FF;
+    font-family: Helvetica, Sans-Serif;
+    color: #554D45;
+}
+
+main, section {
+    overflow: auto;
+}
+
+.title, .first-section-title {
+    margin-left: 12.7%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    float: none;
+}
+
+.title {
+    margin-top: 4.5%;
+}
+
+.space-below {
+    margin-bottom: 4.5%;
+}
+
+.section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 27.6px;
+}
+
+.subtitle {
+    margin-left: 12.7%;
+    margin-right: 12.7%;
+    margin-bottom: 5.69%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.6px;
+    float: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 36.25%; 
+}
+
+.left {
+    float: left;
+    margin-left: 12.7%;
+}
+
+.right {
+    float: right;
+    margin-right: 12.7%;
+}
+
+.center {
+    margin-left: 15%;
+    max-width: 70%;
+}
+
+.item {
+    flex-basis: auto;
+    height: auto;
+    padding: 7% 10%;
+    margin-bottom: 8%;
+    
+    border-radius: 30px;
+    background-color: white;
+    font-size: 24px;
+    line-height: 27.6px;
+    text-align: left;
+    text-decoration: none;
+    color: #554D45;
+}
+
+.main-page .item {
+    min-width: 100%;
+    text-align: center;
+}
+
+.item:hover:not(.no-hover) {
+    background-color: #CEE8FF;
+}
+
+.no-hover a:hover {
+    color: #4ca3f0;
+}
+
+.shadow {
+    box-shadow: 0 6px 3px -3px grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+div a {
+    text-decoration: none;
+    color: #82c4ff;
+}
+
+li {
+    margin: 5%;
+}
+
+.adjust-li-spacing li {
+    margin: 1%
+}
+
+footer {
+    position: relative;
+    left: 12.7%;
+    padding-top: 30%;
+
+    width: 100%;
+    max-width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+#disclaimer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+
+    font-style: italic;
+    font-size: 16px;
+    line-height: 18.4px;
+    text-align: center;
+}
+
+/* Nav Bar Stuff */
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  input:focus {
+    outline:none !important;
+  }
+  
+  img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    font-size: 16px;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    position: absolute;
+    right: 40px;
+    overflow: hidden;
+  }
+  
+  /* adjust buttons */
+  .navbtn {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px 12px;
+    background-color: #F9F9F9;
+    border-radius: 25px;
+    border: 0.1rem solid black;
+    border-color: #C6E3FF;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+  }
+  
+  .navbtn:hover {
+    background-color: rgb(219, 233, 255);
+  }
+  
+  .navbtn.active {
+    background-color: #CFE2FF;
+  }
+  
+  .navbtn.active:focus {outline:0;}
+  
+  .topnav {
+    top: 20px;
+  }
+  
+  .aboutus, .peersupport, .commmembers, .members, .contactus, .events, .resources, .keyterms{
+    margin-left: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 25px;
+    background-color: #F9F9F9;
+    border-color:#C6E3FF;
+    padding: 7px;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 200px;
+    background-color: #F0F8FF;
+  }
+  
