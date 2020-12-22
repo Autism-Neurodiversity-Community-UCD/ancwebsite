@@ -53,7 +53,7 @@ def delete(eventname):
         return f'Could not find event'
     db.session.delete(event)
     db.session.commit()
-    return redirect("http://anctesting.herokuapp.com", code=302)
+    return redirect("http://neurodiversity-community.herokuapp.com", code=302)
 
 
 @app.route('/new', methods = ['GET','POST'])
@@ -78,7 +78,7 @@ def new():
             db.session.add(event)
             db.session.commit() 
             flash('Record was successfully added')
-            return redirect("http://anctesting.herokuapp.com", code=302)
+            return redirect("http://neurodiversity-community.herokuapp.com", code=302)
     return render_template('events.html')
 
 @app.route('/',  methods = ['GET','POST'])
