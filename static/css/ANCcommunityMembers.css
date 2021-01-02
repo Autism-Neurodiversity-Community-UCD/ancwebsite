@@ -97,7 +97,7 @@ body {
 .header {
   margin-top: 90px; 
   margin-left: 8.5%;
-  font-size: 34pt;
+  font-size: 34px;
 }
 
 /* Textboxes */
@@ -107,7 +107,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
-  font-size: 18pt;
+  font-size: 18px;
 
   border-radius: 30px;
   background-color: #FFFFFF;
@@ -140,7 +140,7 @@ body {
   
   background-color: #FFF0BB;
   
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 /* image */
