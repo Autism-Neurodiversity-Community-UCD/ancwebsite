@@ -97,7 +97,7 @@ body {
 .header {
   margin-top: 90px; 
   margin-left: 8.5%;
-  font-size: 34pt;
+  font-size: 34px;
 }
 
 /* Textboxes */
@@ -139,7 +139,7 @@ body {
   
   background-color: #FFF0BB;
   
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 /* image */
@@ -155,7 +155,7 @@ body {
 
 /* text */
 .text_box p, ul, li{
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 
