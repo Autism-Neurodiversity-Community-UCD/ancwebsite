@@ -228,6 +228,25 @@ body {
   border-radius: 61px;
 }
 
+.button3 {
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #554D45;
+  /*position: absolute;*/
+  width: 517px;
+  height: 85px;
+  /*left: 780px;
+  top: 780px;*/
+
+  background: #FFF0BB;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 61px;
+}
+
 .footnote-container{
   display:flex;
   justify-content:center;
