@@ -164,7 +164,7 @@ def adulttransition():
     return render_template('/ANCadulttransition.html')
 
 @app.route('/aboutus',  methods = ['GET','POST'])
-def adulttransition():
+def aboutus():
     return render_template('/ANCaboutus.html')
 
 from app import db
