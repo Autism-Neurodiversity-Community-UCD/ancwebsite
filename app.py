@@ -163,6 +163,10 @@ def keyterms2():
 def adulttransition():
     return render_template('/ANCadulttransition.html')
 
+@app.route('/aboutus',  methods = ['GET','POST'])
+def adulttransition():
+    return render_template('/ANCaboutus.html')
+
 from app import db
 if __name__ == "__main__":
    db.create_all()
