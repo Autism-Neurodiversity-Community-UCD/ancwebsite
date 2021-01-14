@@ -17,7 +17,7 @@
         <a class="navbtn support" href="/peersupport"> Peer Support</a>
         <button class="navbtn active"> Events</button>
         <a button class="navbtn resources" href="/resources"> Resources</button></a>
-        <a button class="navbtn members" href="/communitymembers"> Campus Trainings</button></a>
+        <a button class="navbtn members" href="/communitymembers"> Community Members</button></a>
         <a button class="navbtn contactus" href="/contactus"> Contact Us</button></a>
         <a button class="navbtn key terms" href="/keyterms"> Key Terms</button></a>
     </div> 
@@ -29,61 +29,17 @@
         <p> Click on any event to join the meeting!</p>
     </div>
     
-    
-    <div class="filters-txt">
-        <!--can add more filter buttons here-->
-        <p> Filter by: <br>
-        <div id="eventfilters" style="margin-top: 10px;"> 
-            <button class="btn active" onclick="filterSelection('all')"> All</button>
-            <button class="btn" onclick="filterSelection('Club Meetings')"> Club Meetings</button>
-            <button class="btn" onclick="filterSelection('Trainings for Faculty/Staff')"> Trainings for Faculty/Staff</button>
-            <button class="btn" onclick="filterSelection('Special Events')"> Special Events</button>
-            <button class="btn" onclick="filterSelection('External')"> External</button>
+    <section id="services">
+        <div class="container" style = 'text-align: center'>
+            <div class="row text-center">
+            <h2 class="section-heading" id = "about-heading" > Event Calendar </h2>
+            <hr class="about-hr">
+            <br>
         </div>
-        </p>
-    </div>
-    <p>
-    	<div class= “myfilters”> 
-            <ul class="items">
-            {% for event in events %}
-            <li>
-            <div class="filterDiv {{ event.category }}">
-                <form action="{{ event.link }}">
-                <button class="rectangle">
-                    <div class="event-img">
-                    <img class="photo-btn" src="../static/icons/photo.jpg" alt="" />
-                    <div class="event-content">
-                    <h1>{{ event.eventname }}</h1>
-                    <div class="HC">
-                        <p style="font-size:150%"><img class="photo-clock" src="../static/icons/clock.jpg" alt="" /> 
-                            <p1 class="p1">
-                            {{ event.datetime }} 
-                            </p1>
-                        </p>
-                        <p style="font-size:150%">  <img  class="photo-loc" src="../static/icons/loc.png" alt="" /> 
-                            <p1 class="p1">
-                            {{ event.location }} 
-                            </p1>
-                        </p>
-                    </div>
-                    <p class="description">
-                        {{ event.description }}
-                    </p>
-                    <div class="HC">
-                        <p><b>Host: </b>{{ event.host }} </p>
-                        <p><b>Category: </b>{{ event.category }} </p>
-                    </div>
-                    </div>
-                </div>
-                </button>
-                </form>
-                </div>
-            </li>
-            {% endfor %}
-            </ul>
-		</div>
-    </p>
-    <script src="../static/js/ANCeventspage.js"></script>
+        <iframe src="https://calendar.google.com/calendar/embed?src=includeatdavis%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0; margin:auto" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+        <br><br><br>
+    </section>
+    
 
     </body>
 <!-- <body>
@@ -97,3 +53,4 @@
     </div>
 </body> -->
 </html> 
+
