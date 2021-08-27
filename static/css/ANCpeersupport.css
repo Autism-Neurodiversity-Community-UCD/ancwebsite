@@ -80,7 +80,6 @@ button, input[type="submit"], input[type="reset"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  object-fit: cover;
   margin-top: 30px;
 }
 
