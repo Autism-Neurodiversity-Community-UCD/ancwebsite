@@ -75,6 +75,16 @@ button, input[type="submit"], input[type="reset"] {
   }
 }
 
+/* image */
+.scczoom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 30px;
+}
 
 /* Styling for Resources Pages: Self Advocacy, Mental Health, Faculty and Staff, Academic Support, Employment Support, Financial Aid */
 
