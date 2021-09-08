@@ -342,10 +342,11 @@ html {
     outline:none !important;
   }
   
-  img {
+  .logoimg {
     position: absolute;
     top: 10px;
     left: 10px;
+    margin-left:.5rem;
   }
   
   .topleft {
