@@ -22,49 +22,6 @@ input:focus {
   font-size: 16px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  position: absolute;
-  right: 40px;
-  overflow: hidden;
-}
-
-/* adjust buttons */
-.navbtn {
-  margin-top: 10px;
-  font-size: 15px;
-  padding: 5px 12px;
-  background-color: #F9F9F9;
-  border-radius: 25px;
-  border: 0.1rem solid black;
-  border-color: #C6E3FF;
-  cursor: pointer;
-  text-decoration: none;
-  color:black;
-}
-
-.navbtn:hover {
-  background-color: rgb(219, 233, 255);
-}
-
-.navbtn.active {
-  background-color: #CFE2FF;
-}
-
-.navbtn.active:focus {outline:0;}
-
-.topnav {
-  top: 20px;
-}
-
-.aboutus, .peersupport, .members, .contactus, .events, .resources, .keyterms{
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
 
 body {
   font-family: "Roboto", sans-serif;

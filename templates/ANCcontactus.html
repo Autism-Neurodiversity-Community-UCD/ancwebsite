@@ -12,20 +12,9 @@
    
   </head> 
 
-<div id="content">
-    <img class=logo src="../static/icons/image1.png" alt="ANC logo" style="top:1rem;margin-left:0.5rem;">
-    <div class="topleft">Aggie Neurodiversity Community </div>
-</div>
-
-<div class="topnav">
-    <a class="navbtn homebtn" href="/home"> Home</a>
-    <a class="navbtn peersupport" href="/peersupport"> Peer Support</a>
-    <a class="navbtn events" href="/events"> Events</a>
-    <a button class="navbtn resources" href="/resources"> Resources</button></a>
-    <a button class="navbtn members" href="/communitymembers"> Campus Trainings</button></a>
-    <button class="navbtn active"> Contact Us</button>
-    <a button class="navbtn keyterms" href="/keyterms"> Key Terms</button></a>
-</div> 
+{%with activePage="Contact" %}
+  {%include 'ANCnavbar.html' %}
+{%endwith%}
 
   
   <body>

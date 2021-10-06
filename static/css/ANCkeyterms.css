@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1380px) {
    
     body{
-        position: relative;
         /*width: 1540px;
         height: 2159px;*/
         background-color: #f0f8ff;
@@ -287,45 +286,7 @@
             padding-left: 0;
             padding-right: 0;
           }  */
-          html, body {
-            margin:0;
-            font-family: helvetica, arial, sans-serif;
-            margin: 2em;
-            padding:0;
-            color: #554D45;
-            }
-            
-        button, input[type="submit"], input[type="reset"] {
-            background: none;
-            color: inherit;
-            border: none;
-            padding: 0;
-            font: inherit;
-            cursor: pointer;
-            outline: inherit;
-        }
-        
-        .title-page {
-            padding-top: 27px;
-            position: absolute;
-            top:2.5rem;
-            margin-left: 7rem;
-        
-        }
-        
-        .first-logo {
-            padding-top: 27px;
-            position:absolute;
-            top:1rem;
-            margin-left:.5rem;
-        }
-        
-        .bck-img {
-            display:flex;
-            justify-content:center;
-            margin-top:30px;
-            padding:0;
-        }
+         
         /*
         .navigation-container {
             display:flex;
@@ -866,50 +827,6 @@ html {
     top: 35px;
     left: 100px;
     font-size: 16px;
-  }
-  
-  /* Add a black background color to the top navigation */
-  .topnav {
-    position: absolute;
-    right: 40px;
-    overflow: hidden;
-  }
-  
-  /* adjust buttons */
-  .navbtn {
-    margin-top: 10px;
-    font-size: 15px;
-    padding: 5px 12px;
-    background-color: #F9F9F9;
-    border-radius: 25px;
-    border: 0.1rem solid black;
-    border-color: #C6E3FF;
-    cursor: pointer;
-    text-decoration: none;
-    color:black;
-  }
-  
-  .navbtn:hover {
-    background-color: rgb(219, 233, 255);
-  }
-  
-  .navbtn.active {
-    background-color: #CFE2FF;
-  }
-  
-  .navbtn.active:focus {outline:0;}
-  
-  .topnav {
-    top: 20px;
-  }
-  
-  .aboutus, .peersupport, .commmembers, .members, .contactus, .events, .resources, .keyterms{
-    margin-left: 1rem;
-    border: 0.1rem solid black;
-    border-radius: 25px;
-    background-color: #F9F9F9;
-    border-color:#C6E3FF;
-    padding: 7px;
   }
   
 

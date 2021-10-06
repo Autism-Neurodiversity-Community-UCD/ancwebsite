@@ -4,11 +4,6 @@ margin:0;
 padding:0;
 }
 
-.logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
 
 button, input[type="submit"], input[type="reset"] {
 	background: none;
@@ -43,104 +38,6 @@ button, input[type="submit"], input[type="reset"] {
   
 }
 
-
-.navigation-container {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-top:2rem;  
-}
-
-.home {
-  margin-left: 4rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  border-color:#CEE8FF;
-  background-color: #CEE8FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.aboutus {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.peersupport {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.commmembers {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.members {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.contactus {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.events {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.resources {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  color: #554D45;
-}
-
-.keyterms {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-  margin-right:1rem;
-  color: #554D45;
-}
 
 body {
   font-family: helvetica, arial, sans-serif;

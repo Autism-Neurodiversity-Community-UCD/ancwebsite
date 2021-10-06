@@ -21,6 +21,12 @@ button, input[type="submit"], input[type="reset"] {
 
 }
 
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .first-logo {
   position:absolute;
   top:1rem;
@@ -36,97 +42,50 @@ button, input[type="submit"], input[type="reset"] {
 
 }
 
-
-.navigation-container {
+.topnav {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-
+  padding-top:2rem;
+  top:20px;
+  right: 40px;
+  position: absolute;
 }
 
-.peersupport {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  border-color:#CEE8FF;
-  background-color: #CEE8FF;
-  padding: 7px;
+.navbtn.active {
+  background-color:#CFE2FF;
 }
 
-.aboutus {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
+.navbtn:hover {
+  background-color: rgb(219, 233, 255);
 }
 
 .home {
   margin-left: 4rem;
   border: 0.1rem solid black;
   border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
+  border-color:#CEE8FF;
   padding: 7px;
 }
 
-.commmembers {
+a.navbtn {
+  text-decoration: none;
   margin-left: 1rem;
   border: 0.1rem solid black;
   border-radius: 25px;
   background-color: #F9F9F9;
   border-color:#C6E3FF;
   padding: 7px;
+  color: #554D45;
+  margin-top:10px;
+  font-size: 15px;
+
 }
 
-.members {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
 
-.contactus {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
 
-.events {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
-
-.resources {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
-
-.keyterms {
-  margin-left: 1rem;
-  border: 0.1rem solid black;
-  border-radius: 25px;
-  background-color: #F9F9F9;
-  border-color:#C6E3FF;
-  padding: 7px;
-}
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -136,3 +95,4 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+ } 

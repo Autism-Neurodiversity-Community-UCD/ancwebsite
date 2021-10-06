@@ -7,20 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="../static/css/ANCeventspage.css">
 	</head>
 
-    <div id="content">
-        <img src="../static/icons/image1.png" alt="ANC logo" style="top:1rem;margin-left:0.5rem;">
-        <div class="topleft">Aggie Neurodiversity Community </div>
-    </div>
 
-    <div class="topnav">
-        <a class="navbtn home" href="/home"> Home</a>
-        <a class="navbtn support" href="/peersupport"> Peer Support</a>
-        <button class="navbtn active"> Events</button>
-        <a button class="navbtn resources" href="/resources"> Resources</button></a>
-        <a button class="navbtn members" href="/communitymembers"> Community Members</button></a>
-        <a button class="navbtn contactus" href="/contactus"> Contact Us</button></a>
-        <a button class="navbtn key terms" href="/keyterms"> Key Terms</button></a>
-    </div> 
+
+   {%with activePage="Events" %}
+     {%include 'ANCnavbar.html' %}
+   {%endwith%}
    <!--<header>Nav Bar</header>--> 
 
 	<body>	
